@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+}
+
+.checkOne, .checkTwo, .radioOne, .radioTwo{
+    
+    background-image: url('../sprites/form-elements-sprite.png');
+    background-repeat: no-repeat;
+   
+}
+
+.checkDiv{
+    display: inline;
+}
+
+.checkOne {
+    height: 200px;
+    width: 220px;
+         background-position: -100px -240px;
+}
+
+.checkTwo {
+    height: 200px;
+    width: 250px;
+         background-position: -320px -240px;
+}
+
+.radioOne {
+  height: 200px;
+  width: 250px;
+       background-position: -550px -240px;
+}
+
+.radioTwo {
+    height: 200px;
+    width: 250px;
+         background-position: -775px -240px;
+}
+
+.submitTwo{
+    background-color: black;
+    color: white;
+}
